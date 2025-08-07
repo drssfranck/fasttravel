@@ -1,0 +1,11 @@
+/* Styles spécifiques à la navbar */
+.navbar {
+    background: #34495e;
+    padding: 1rem 0;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}

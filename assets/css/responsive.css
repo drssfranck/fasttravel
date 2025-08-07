@@ -1,0 +1,10 @@
+/* Styles responsive */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+    }
+}

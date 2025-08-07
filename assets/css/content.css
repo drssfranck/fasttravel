@@ -1,0 +1,10 @@
+/* Styles spécifiques au contenu */
+.main-content {
+    min-height: calc(100vh - 200px);
+    padding: 2rem 0;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 3rem 0;
+}
