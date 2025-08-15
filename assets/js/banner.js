@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".slide"); 
+    const slides = document.querySelectorAll(".banner"); 
     let currentSlide = 0; 
     const slideInterval = 5000; 
 
