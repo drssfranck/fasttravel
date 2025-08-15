@@ -1,0 +1,88 @@
+.footer {
+    color: white;
+    padding: 20px 10px;
+    font-family: arial, sans-serif;
+}
+.footer-top {
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 10px;
+}
+.mail-info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.social-info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    transition: color 2.3s ease;
+}
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    transition: transform 0.2s ease;
+    position:relative;
+    border-radius: 50%;
+    right: 20px;
+}
+.social-icon:hover {
+    transform: scale(1.2);
+}
+.footer-middle {
+    background-color: #001f5b;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+.about {
+    margin: 20px;
+    flex: 1 1 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service {
+    margin: 20px;
+    flex: 1 1 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.links {
+    margin: 20px;
+    flex: 1 1 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact {
+   margin: 20px;
+    flex: 1 1 200px;
+    font-size: 20px;
+    margin-bottom: 10px;  
+}
+
+.footer-bottom {
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.footer-bottom p {
+    align-items: center;
+}
+
+
+
