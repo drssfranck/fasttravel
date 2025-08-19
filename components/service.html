@@ -12,7 +12,7 @@
 
 
     <div id="header"></div>
-    <div id="banner"></div>
+    <div id="banner-placeholder"></div>
     <section class="services">
 
 
@@ -61,6 +61,20 @@
 
 
     <div id="footer"></div>
+
+
+    <script>
+         fetch('banner.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('banner-placeholder').innerHTML = html;
+
+      // Update banner content for this page
+      document.getElementById('banner-title').textContent = ' OUR Services';
+      document.getElementById('banner-subtitle').textContent = 'Discover our services';
+      document.getElementById('banner-button').textContent = 'Learn More';
+    });
+    </script>
 
 
 
