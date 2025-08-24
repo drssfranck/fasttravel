@@ -11,12 +11,10 @@
 
 
 
-    <div id="header"></div>
-    <div id="banner-placeholder"></div>
+   
     <section class="services">
 
-
-
+        
 
         <h2>OUR SERVICES</h2>
         <div class="service-container">
@@ -58,26 +56,18 @@
     </section>
 
 
-
-
-    <div id="footer"></div>
-
-
     <script>
-         fetch('banner.html')
+       fetch('banner.html')
     .then(res => res.text())
     .then(html => {
-      document.getElementById('banner-placeholder').innerHTML = html;
+      document.getElementById('banner').innerHTML = html;
 
       // Update banner content for this page
-      document.getElementById('banner-title').textContent = ' OUR Services';
-      document.getElementById('banner-subtitle').textContent = 'Discover our services';
-      document.getElementById('banner-button').textContent = 'Learn More';
+      document.getElementById('banner-title').textContent = 'Our Service';
+      document.getElementById('banner-subtitle').textContent = 'Explore our services';
+      document.getElementById('banner-button').textContent = 'Enroll Now';
     });
     </script>
-
-
-
-    
+   
 </body>
 </html>

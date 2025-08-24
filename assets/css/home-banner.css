@@ -59,14 +59,14 @@
   }
 
   .banner h1 {
-    font-size: 3rem;
+    font-size: 45px;
     margin: 0;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   }
 
   .banner p {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin: 10px 0;
     font-weight: 300;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
@@ -75,7 +75,11 @@
   }
 
   
-  .banner a.button {
+   a.button {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    
     display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
